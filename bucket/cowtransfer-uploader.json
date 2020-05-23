@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/Mikubill/cowtransfer-uploader",
-    "description":"上传/下载文件到奶牛快传的小工具，支持分块并发上传下载 Simple cowTransfer Uploader/Downloader",
+    "description": "上传/下载文件到奶牛快传的小工具，支持分块并发上传下载 Simple cowTransfer Uploader/Downloader",
     "license": "MIT",
     "version": "0.4.8",
     "architecture": {
