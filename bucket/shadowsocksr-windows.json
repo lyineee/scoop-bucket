@@ -14,11 +14,22 @@
         }
     },
     "bin": "shadowsocksr.exe",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\pac.txt\")) { New-Item \"$dir\\pac.txt\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\gui-config.json\")) { New-Item \"$dir\\gui-config.json\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\user-rule.txt\")) { New-Item \"$dir\\user-rule.txt\" | Out-Null }"
+    ],
     "shortcuts": [
         [
             "shadowsocksr.exe",
             "shadowsocksr"
         ]
+    ],
+
+    "persist": [
+        "gui-config.json",
+        "pac.txt",
+        "user-rule.txt"
     ],
     "checkver": {
         "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
