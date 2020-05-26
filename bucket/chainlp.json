@@ -1,0 +1,38 @@
+{
+    "homepage": "http://no722.cocolog-nifty.com/blog/chainlp/index.html",
+    "version": "0.0.40.17",
+    "description": "从图片或压缩包创建LRP,PDF,ePub文件 generate LRP, PDF or ePub file from a zip file or images",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/lyineee/scoop-repo/raw/master/ChainLp/ChainLP40b17.zip",
+                "https://github.com/lyineee/scoop-repo/raw/master/ChainLp/plugin/UNZIP32.DLL",
+                "https://github.com/lyineee/scoop-repo/raw/master/ChainLp/plugin/ZIP32J.DLL",
+                "https://github.com/lyineee/scoop-repo/raw/master/ChainLp/plugin/zip32.dll"
+            ],
+            "hash": [
+                "43ca67b7691c34bc58ae1eade0c31c49ad3e6ce15d547c7375cb9971e3497e4b",
+                "e0d2e8e891420c77baa5a435f654ce6694bb2d9043007200169841d5a64785b8",
+                "3ecee33c8fb44af22e0a7a75f19ab8e8ba3da7bd722505d72e15f75b0fccf9e6",
+                "bdc999b84a2f80910f8d3d14faf63270776fd6f8bcd7a374f0a5454019dae18e"
+            ]
+        }
+    },
+    "bin": [
+        [
+            "BatchLP.exe",
+            "BatchLP"
+        ],
+        [
+            "ChainLP.exe",
+            "ChainLP"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ChainLP.exe",
+            "ChainLP"
+        ]
+    ]
+}
