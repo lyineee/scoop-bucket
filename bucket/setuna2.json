@@ -25,6 +25,12 @@
             "SETUNA2"
         ]
     ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\SetunaConfig.xml\")) { New-Item \"$dir\\SetunaConfig.xml\" | Out-Null }"
+    ],
+    "persist": [
+        "SetunaConfig.xml"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
