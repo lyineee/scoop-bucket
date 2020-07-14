@@ -2,15 +2,15 @@
     "homepage": "https://github.com/Mikubill/cowtransfer-uploader",
     "description": "上传/下载文件到奶牛快传的小工具，支持分块并发上传下载 Simple cowTransfer Uploader/Downloader",
     "license": "MIT",
-    "version": "0.4.9",
+    "version": "0.4.10",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mikubill/cowtransfer-uploader/releases/download/v0.4.9/cowtransfer-uploader_0.4.9_windows_amd64.zip#/dl.7z",
-            "hash": "60a5186aa27a3c6611feb6edb5f150457b1b53c8412ba591251a837274ec5ad1"
+            "url": "https://github.com/Mikubill/cowtransfer-uploader/releases/download/v0.4.10/cowtransfer-uploader_0.4.10_windows_amd64.zip#/dl.7z",
+            "hash": "74dd9725a2cd77e367f2925b22a0180b4ef9270da6994b58d3d4f887b21f813e"
         },
         "32bit": {
-            "url": "https://github.com/Mikubill/cowtransfer-uploader/releases/download/v0.4.9/cowtransfer-uploader_0.4.9_windows_386.zip#/dl.7z",
-            "hash": "1577cfb96d024d4ffca21c07ea51ca603d7ad6fe0cfb026acf801c663e3571fb"
+            "url": "https://github.com/Mikubill/cowtransfer-uploader/releases/download/v0.4.10/cowtransfer-uploader_0.4.10_windows_386.zip#/dl.7z",
+            "hash": "aeee65051f5b1bd24d48ae8cb8ec467e9fa32a3863ba2ba9f9e3dfea08b11aff"
         }
     },
     "bin": "cowtransfer-uploader.exe",
