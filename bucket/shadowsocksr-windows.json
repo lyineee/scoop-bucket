@@ -33,15 +33,15 @@
     ],
     "checkver": {
         "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
-        "re": "ShadowsocksR\\-net48\\-(?<version>\\d+\\.\\d+\\.\\d+)\\.zip"
+        "re": "ShadowsocksR\\-netcore\\-(?<version>\\d+\\.\\d+\\.\\d+)\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-net48-$matchVersion.zip#/dl.7z"
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-net48-$matchVersion.zip#/dl.7z"
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
             }
         },
         "hash": {
