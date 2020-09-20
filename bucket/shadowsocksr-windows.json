@@ -13,22 +13,22 @@
             "hash": "06811faf151c36bc1156e9fbffde5f0c061083a1a5bfed6f0a1446a02a024718"
         }
     },
-    "bin": "shadowsocksr.exe",
+    "bin": "ShadowsocksR\\shadowsocksr.exe",
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\pac.txt\")) { New-Item \"$dir\\pac.txt\" | Out-Null }",
-        "if (!(Test-Path \"$persist_dir\\gui-config.json\")) { New-Item \"$dir\\gui-config.json\" | Out-Null }",
-        "if (!(Test-Path \"$persist_dir\\user-rule.txt\")) { New-Item \"$dir\\user-rule.txt\" | Out-Null }"
+        "if (!(Test-Path \"$persist_dir\\ShadowsocksR\\pac.txt\")) { New-Item \"$dir\\ShadowsocksR\\pac.txt\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\ShadowsocksR\\gui-config.json\")) { New-Item \"$dir\\ShadowsocksR\\gui-config.json\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\ShadowsocksR\\user-rule.txt\")) { New-Item \"$dir\\ShadowsocksR\\user-rule.txt\" | Out-Null }"
     ],
     "shortcuts": [
         [
-            "shadowsocksr.exe",
+            "ShadowsocksR\\shadowsocksr.exe",
             "shadowsocksr"
         ]
     ],
     "persist": [
-        "gui-config.json",
-        "pac.txt",
-        "user-rule.txt"
+        "ShadowsocksR\\gui-config.json",
+        "ShadowsocksR\\pac.txt",
+        "ShadowsocksR\\user-rule.txt"
     ],
     "checkver": {
         "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
