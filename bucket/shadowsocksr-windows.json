@@ -2,15 +2,15 @@
     "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows",
     "description": "ShadowsocksR for Windows",
     "license": "GPL-3.0",
-    "version": "5.1.9",
+    "version": "5.1.10",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-net48-5.1.9.zip#/dl.7z",
-            "hash": "4260189395EE3DAC6431C372981D8774794C832B220BB79D9B02DCC0A672E385"
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.10/ShadowsocksR-netcore-5.1.10.7z#/dl.7z",
+            "hash": "06811faf151c36bc1156e9fbffde5f0c061083a1a5bfed6f0a1446a02a024718"
         },
         "32bit": {
-            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-net48-5.1.9.zip#/dl.7z",
-            "hash": "4260189395EE3DAC6431C372981D8774794C832B220BB79D9B02DCC0A672E385"
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.10/ShadowsocksR-netcore-5.1.10.7z#/dl.7z",
+            "hash": "06811faf151c36bc1156e9fbffde5f0c061083a1a5bfed6f0a1446a02a024718"
         }
     },
     "bin": "shadowsocksr.exe",
@@ -25,7 +25,6 @@
             "shadowsocksr"
         ]
     ],
-
     "persist": [
         "gui-config.json",
         "pac.txt",
@@ -38,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$matchVersion/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.9/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$matchVersion/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
             }
         },
         "hash": {
