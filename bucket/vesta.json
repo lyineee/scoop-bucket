@@ -2,11 +2,11 @@
     "homepage": "https://jp-minerals.org/vesta",
     "description": "VESTA is a 3D visualization program for structural models, volumetric data such as electron/nuclear densities, and crystal morphologies.",
     "license": "None",
-    "version": "3.5.5",
+    "version": "3.5.6",
     "architecture": {
         "64bit": {
-            "url": "https://jp-minerals.org/vesta/archives/3.5.5/VESTA-win64.zip#/dl.7z",
-            "hash": "7e19b8ab69edf55e1d2cfe12bc31b61eff173349c1a7a6703d8caed0d561cf17",
+            "url": "https://jp-minerals.org/vesta/archives/3.5.6/VESTA-win64.zip#/dl.7z",
+            "hash": "c4de034219420d8882ecfc221db93f42d6278ee16415c884fc3f125bd88c9b68",
             "bin": "VESTA-win64/VESTA.exe",
             "shortcuts": [
                 [
@@ -16,8 +16,8 @@
             ]
         },
         "32bit": {
-            "url": "https://jp-minerals.org/vesta/archives/3.5.5/VESTA.zip#/dl.7z",
-            "hash": "91bbd315e031191ab91d6dae3b0c794b9613e6d9acdf543933d038b1e3607b78",
+            "url": "https://jp-minerals.org/vesta/archives/3.5.6/VESTA.zip#/dl.7z",
+            "hash": "c1b536b654619c6c144b7b8a4859e8cc4dc9316ecb30fde6b542ca774a1f75dd",
             "bin": "VESTA/VESTA.exe",
             "shortcuts": [
                 [
