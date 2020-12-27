@@ -2,15 +2,15 @@
     "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows",
     "description": "ShadowsocksR for Windows",
     "license": "GPL-3.0",
-    "version": "5.1.10",
+    "version": "5.2.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.10/ShadowsocksR-netcore-5.1.10.7z#/dl.7z",
-            "hash": "06811faf151c36bc1156e9fbffde5f0c061083a1a5bfed6f0a1446a02a024718"
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.3/ShadowsocksR-5.2.3.7z#/dl.7z",
+            "hash": "161c93d6d08fdb9e88ff6f804fe6214ca693d7df8bef8f19efd2fd598ae2fddd"
         },
         "32bit": {
-            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.10/ShadowsocksR-netcore-5.1.10.7z#/dl.7z",
-            "hash": "06811faf151c36bc1156e9fbffde5f0c061083a1a5bfed6f0a1446a02a024718"
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.2.3/ShadowsocksR-5.2.3.7z#/dl.7z",
+            "hash": "161c93d6d08fdb9e88ff6f804fe6214ca693d7df8bef8f19efd2fd598ae2fddd"
         }
     },
     "bin": "ShadowsocksR\\shadowsocksr.exe",
@@ -32,15 +32,15 @@
     ],
     "checkver": {
         "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
-        "re": "ShadowsocksR\\-netcore\\-(?<version>\\d+\\.\\d+\\.\\d+)\\.7z"
+        "re": "ShadowsocksR\\-(?<version>\\d+\\.\\d+\\.\\d+)\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$matchVersion/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$matchVersion/ShadowsocksR-$matchVersion.7z#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$matchVersion/ShadowsocksR-netcore-$matchVersion.7z#/dl.7z"
+                "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$matchVersion/ShadowsocksR-$matchVersion.7z#/dl.7z"
             }
         },
         "hash": {
