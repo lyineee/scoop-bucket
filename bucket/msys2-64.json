@@ -2,13 +2,13 @@
     "homepage": "http://msys2.github.io",
     "description": "A software distro and building platform for Windows.",
     "##": "64-bit version is able to build both 32-bit and 64-bit packages",
-    "version": "20201109",
+    "version": "20210105",
     "license": "GPL-2.0-only|BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/msys2/Base/x86_64/msys2-base-x86_64-20201109.tar.xz",
+            "url": "https://downloads.sourceforge.net/project/msys2/Base/x86_64/msys2-base-x86_64-20210105.tar.xz",
             "extract_dir": "msys64",
-            "hash": "sha1:31427baf7b3ccd8c16555c081a7cab68956e21c2"
+            "hash": "sha1:55ba7f6ec34e10948f93b43a410124296cf0dbf2"
         }
     },
     "pre_install": [
