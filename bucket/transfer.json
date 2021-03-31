@@ -2,15 +2,15 @@
     "homepage": "https://github.com/Mikubill/transfer",
     "description": "集合多个API的大文件传输工具  Large file transfer tool with multiple file transfer services support",
     "license": "MIT",
-    "version": "0.4.9",
+    "version": "0.4.10",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mikubill/transfer/releases/download/v0.4.9/transfer_0.4.9_windows_amd64.zip#/dl.7z",
-            "hash": "7980915859462317fbe04b36ec66da0c77003bd1e6ede694c59dffe58f762d00"
+            "url": "https://github.com/Mikubill/transfer/releases/download/v0.4.10/transfer_0.4.10_windows_amd64.zip#/dl.7z",
+            "hash": "448ea148d81f64bad18532f34fe4e4075725b546e74089d8745a3eed7ef80805"
         },
         "32bit": {
-            "url": "https://github.com/Mikubill/transfer/releases/download/v0.4.9/transfer_0.4.9_windows_386.zip#/dl.7z",
-            "hash": "42d76c02c6e46edde814be552314fcfb3d4eca8a472b5b06e1208887c7a4cbfd"
+            "url": "https://github.com/Mikubill/transfer/releases/download/v0.4.10/transfer_0.4.10_windows_386.zip#/dl.7z",
+            "hash": "24944c29704cf59d6fc36da84b06ec89bd32816b38ae2d76863f516b5cb0135d"
         }
     },
     "bin": "transfer.exe",
