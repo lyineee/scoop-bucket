@@ -18,7 +18,8 @@
         ]
     ],
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\setting.ini\")) { New-Item \"$dir\\setting.ini\" | Out-Null }"    ],
+        "if (!(Test-Path \"$persist_dir\\setting.ini\")) { New-Item \"$dir\\setting.ini\" | Out-Null }"
+    ],
     "checkver": {
         "github": "https://github.com/lyineee/AhkScriptManager"
     },
