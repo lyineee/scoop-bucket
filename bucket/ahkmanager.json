@@ -1,0 +1,28 @@
+{
+    "version": "0.1.0",
+    "description": "Autohotkey script manager",
+    "homepage": "https://github.com/lyineee/AhkScriptManager",
+    "license": "MIT",
+    "url": "https://github.com/lyineee/AhkScriptManager/releases/download/v0.1.0/AhkScriptManager.exe",
+    "hash": "d8ec1cf9a867df97b7ec8f37085bb586594e5b7b4f39cdcad04a81640b578069",
+    "bin": "AhkScriptManager.exe",
+    "persist": [
+        "scripts",
+        "3rd",
+        "setting.ini"
+    ],
+    "shortcuts": [
+        [
+            "AhkScriptManager.exe",
+            "AhkScriptManager"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\setting.ini\")) { New-Item \"$dir\\setting.ini\" | Out-Null }"    ],
+    "checkver": {
+        "github": "https://github.com/lyineee/AhkScriptManager"
+    },
+    "autoupdate": {
+        "url": "https://github.com/lyineee/AhkScriptManager/releases/download/v$version/AhkScriptManager.exe"
+    }
+}
