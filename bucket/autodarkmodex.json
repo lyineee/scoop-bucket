@@ -1,0 +1,26 @@
+{
+    "homepage": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode",
+    "description": "Automatically switches between the dark and light theme of Windows 10 at scheduled times",
+    "license": "GPL-3.0",
+    "version": "10.0.0.26",
+    "innosetup": true,
+    "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.0.0.26/AutoDarkModeX_10.0.0.26.exe",
+    "hash": "04d1c0d669eaf217d3cbe1f596dafdf3fcef91a0eae4686a3f9b5c5652ed9886",
+    "bin": "AutoDarkMode.exe",
+    "shortcuts": [
+        [
+            "AutoDarkMode.exe",
+            "AutoDarkMode"
+        ]
+    ],
+    "persist": "AutoDarkMode.exe.config",
+    "checkver": {
+        "github": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode"
+    },
+    "autoupdate": {
+        "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version.exe",
+        "hash": {
+            "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version.sha256"
+        }
+    }
+}
