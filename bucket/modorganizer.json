@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/ModOrganizer2/modorganizer",
+    "description": "a tool for managing mod collections of arbitrary size",
+    "license": "GPL-3.0",
+    "version": "2.4.2",
+    "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2/Mod.Organizer-2.4.2.7z",
+    "hash": "",
+    "shortcuts": [
+        [
+            "ModOrganizer.exe",
+            "ModOrganizer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ModOrganizer2/modorganizer"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v$version/Mod.Organizer-$version.7z"
+    }
+}
