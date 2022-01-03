@@ -22,7 +22,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://mirrors.tuna.tsinghua.edu.cn/github-release/FreeCAD/FreeCAD/LatestRelease/",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/FreeCAD/FreeCAD/LatestRelease/",
         "regex": "FreeCAD-(?<build>[\\w.]+)-WIN"
     },
     "autoupdate": {
