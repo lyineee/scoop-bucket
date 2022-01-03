@@ -11,16 +11,20 @@
         "xFOEdit64.exe",
         "xFOEdit.exe",
         "xTESEdit64.exe",
-        "xTESEdit.exe"
+        "xTESEdit.exe",
+        ["xTESEdit.exe","SSEEdit", "-sse"],
+        ["xTESEdit64.exe","SSEEdit64", "-sse"]
     ],
     "shortcuts": [
         [
             "xTESEdit.exe",
-            "SSEEdit"
+            "SSEEdit",
+            "-sse"
         ],
         [
             "xTESEdit64.exe",
-            "SSEEdit64"
+            "SSEEdit64",
+            "-sse"
         ]
     ],
     "checkver": {
