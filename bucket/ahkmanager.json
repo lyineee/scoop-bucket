@@ -1,10 +1,10 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Autohotkey script manager",
     "homepage": "https://github.com/lyineee/AhkScriptManager",
     "license": "MIT",
-    "url": "https://github.com/lyineee/AhkScriptManager/releases/download/v0.2.0/AhkScriptManager.exe",
-    "hash": "32a9bccb2a012ec530dea22a68d61cb9374f7b584e228c66f97d6f9e4b879817",
+    "url": "https://github.com/lyineee/AhkScriptManager/releases/download/v0.2.1/AhkScriptManager.exe",
+    "hash": "05ac76ee3b3ed69bc1dc8997d3bb1346471cdc6550602c8de3feb3996d674880",
     "bin": "AhkScriptManager.exe",
     "persist": [
         "scripts",
